@@ -1,0 +1,53 @@
+header {
+    width: 100%;
+    height: .45rem;
+    background-color: #f4ba4c;
+    text-align: center;
+    
+    position: relative;
+    z-index: 99;
+    position: relative;
+}
+
+header h4 {
+    color: #fff;
+    font-size: .18rem;
+    font-weight: normal;
+    text-shadow: 0 0 3px #000;
+    line-height: .45rem;
+}
+
+
+
+header img{
+    width: .25rem;
+    position: absolute;
+    left: .15rem;
+    top: .1rem;
+}
+
+
+.main{
+    padding:0 .04rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.main .item{
+    width: 1.54rem;
+    height: 1.95rem;
+    border: 1px solid #ccc;
+    margin-top: .15rem;
+    
+}
+.main .item img{
+    width: 1.52rem;
+}
+
+.main .item p{
+    color: #441e06;
+    font-size: .14rem;
+    text-align: center;
+}
